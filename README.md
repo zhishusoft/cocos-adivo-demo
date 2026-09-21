@@ -9,7 +9,7 @@
 
 ## 演示视频
 
-<!-- GitHub 视频附件地址在首次发布后写入这里。 -->
+<video src="docs/demo.mp4" controls playsinline></video>
 
 [播放或下载 MP4 文件](docs/demo.mp4)
 
