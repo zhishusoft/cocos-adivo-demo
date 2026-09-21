@@ -1,0 +1,202 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdivoCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @_Concurrency::MainActor final public class AdivoClient {
+  public typealias LoadCompletion = (Swift::Result<AdivoCore::AdivoAdInfo, AdivoCore::AdivoError>) -> Swift::Void
+  public typealias RewardBlock = (AdivoCore::AdivoShowSession, AdivoCore::AdivoReward) -> Swift::Void
+  public typealias ShowCompletion = (Swift::Result<AdivoCore::AdivoShowSession, AdivoCore::AdivoError>) -> Swift::Void
+  @_Concurrency::MainActor final public var onEvent: ((AdivoCore::AdivoEvent) -> Swift::Void)?
+  @_Concurrency::MainActor final public var isInitialized: Swift::Bool {
+    get
+  }
+  @_Concurrency::MainActor final public let configuration: AdivoCore::AdivoConfiguration
+  @_Concurrency::MainActor convenience public init(configuration: AdivoCore::AdivoConfiguration, engine: any AdivoCore::AdivoEngine) throws
+  @_Concurrency::MainActor final public func initialize(completion: @escaping (Swift::Result<Swift::Void, AdivoCore::AdivoError>) -> Swift::Void)
+  @_Concurrency::MainActor final public func load(placement name: Swift::String, completion: @escaping AdivoCore::AdivoClient.AdivoCore::LoadCompletion)
+  @_Concurrency::MainActor final public func isReady(placement name: Swift::String) -> Swift::Bool
+  @_Concurrency::MainActor final public func show(placement name: Swift::String, rewardBlock: AdivoCore::AdivoClient.AdivoCore::RewardBlock? = nil, completion: @escaping AdivoCore::AdivoClient.AdivoCore::ShowCompletion)
+  @objc deinit
+}
+@_Concurrency::MainActor public protocol AdivoEngine : AnyObject {
+  @_Concurrency::MainActor var onEvent: ((AdivoCore::AdivoEngineEvent) -> Swift::Void)? { get set }
+  @_Concurrency::MainActor func initialize(configuration: AdivoCore::AdivoConfiguration, completion: @escaping (Swift::Result<Swift::Void, AdivoCore::AdivoError>) -> Swift::Void)
+  @_Concurrency::MainActor func load(unit: AdivoCore::AdivoPlacement, attemptID: Foundation::UUID)
+  @_Concurrency::MainActor func isReady(adUnitID: Swift::String) -> Swift::Bool
+  @_Concurrency::MainActor func show(unit: AdivoCore::AdivoPlacement, placement: Swift::String, sessionID: Foundation::UUID)
+}
+public enum AdivoEngineEvent : Swift::Sendable {
+  case loaded(attemptID: Foundation::UUID, ad: AdivoCore::AdivoAdInfo)
+  case loadFailed(attemptID: Foundation::UUID, adUnitID: Swift::String, error: AdivoCore::AdivoError)
+  case expired(adUnitID: Swift::String)
+  case displayed(sessionID: Foundation::UUID)
+  case clicked(sessionID: Foundation::UUID)
+  case closed(sessionID: Foundation::UUID)
+  case showFailed(sessionID: Foundation::UUID, error: AdivoCore::AdivoError)
+  case reward(sessionID: Foundation::UUID, reward: AdivoCore::AdivoReward)
+  case revenue(sessionID: Foundation::UUID, revenue: AdivoCore::AdivoRevenue)
+  case diagnostic(Swift::String)
+}
+public struct AdivoPlacementCatalog : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public struct Reference : Swift::Codable, Swift::Equatable, Swift::Sendable {
+    public let adUnit: Swift::String
+    public let enabled: Swift::Bool
+    public init(adUnit: Swift::String, enabled: Swift::Bool = true)
+    public init(from decoder: any Swift::Decoder) throws
+    public static func == (a: AdivoCore::AdivoPlacementCatalog.AdivoCore::Reference, b: AdivoCore::AdivoPlacementCatalog.AdivoCore::Reference) -> Swift::Bool
+    public func encode(to encoder: any Swift::Encoder) throws
+  }
+  public let schemaVersion: Swift::Int
+  public let revision: Swift::String
+  public let mediationEngine: Swift::String
+  public let adUnits: [Swift::String : AdivoCore::AdivoPlacement]
+  public let placements: [Swift::String : AdivoCore::AdivoPlacementCatalog.AdivoCore::Reference]
+  public init(schemaVersion: Swift::Int = 1, revision: Swift::String, mediationEngine: Swift::String, adUnits: [Swift::String : AdivoCore::AdivoPlacement], placements: [Swift::String : AdivoCore::AdivoPlacementCatalog.AdivoCore::Reference])
+  public func resolve(for expectedEngine: Swift::String) throws -> AdivoCore::AdivoConfiguration
+  public static func == (a: AdivoCore::AdivoPlacementCatalog, b: AdivoCore::AdivoPlacementCatalog) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public enum AdivoAdFormat : Swift::String, Swift::Codable, Swift::Sendable {
+  case rewarded, interstitial
+  public init?(rawValue: Swift::String)
+  public typealias RawValue = Swift::String
+  public var rawValue: Swift::String {
+    get
+  }
+}
+public struct AdivoPlacement : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let adUnitID: Swift::String
+  public let format: AdivoCore::AdivoAdFormat
+  public let enabled: Swift::Bool
+  public init(adUnitID: Swift::String, format: AdivoCore::AdivoAdFormat, enabled: Swift::Bool = true)
+  public init(from decoder: any Swift::Decoder) throws
+  public static func == (a: AdivoCore::AdivoPlacement, b: AdivoCore::AdivoPlacement) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+}
+public struct AdivoConfiguration : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let placements: [Swift::String : AdivoCore::AdivoPlacement]
+  public let loadTimeout: Foundation::TimeInterval
+  public let initializationTimeout: Foundation::TimeInterval
+  public init(placements: [Swift::String : AdivoCore::AdivoPlacement], loadTimeout: Foundation::TimeInterval = 30, initializationTimeout: Foundation::TimeInterval = 45)
+  public init(from decoder: any Swift::Decoder) throws
+  public func validate() throws
+  public static func == (a: AdivoCore::AdivoConfiguration, b: AdivoCore::AdivoConfiguration) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+}
+public struct AdivoChannel : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let id: Swift::String
+  public let adapterClassName: Swift::String
+  public let mediationEngine: Swift::String
+  public let requiredInfoPlistKeys: [Swift::String]
+  public init(id: Swift::String, mediationEngine: Swift::String, adapterClassName: Swift::String, requiredInfoPlistKeys: [Swift::String] = [])
+  public static func == (a: AdivoCore::AdivoChannel, b: AdivoCore::AdivoChannel) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct AdivoError : Swift::Error, Foundation::LocalizedError, Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public enum Code : Swift::String, Swift::Codable, Swift::Sendable {
+    case invalidConfiguration, configurationConflict, notInitialized, initializationTimedOut
+    case unknownPlacement, placementDisabled, missingAdapter, missingPlatformConfiguration
+    case noFill, loadFailed, loadTimedOut, loadStillRunning, notReady, presentationBusy
+    case invalidPresenter, showFailed, privacyNotReady, unsupportedChannel
+    public init?(rawValue: Swift::String)
+    public typealias RawValue = Swift::String
+    public var rawValue: Swift::String {
+      get
+    }
+  }
+  public let code: AdivoCore::AdivoError.AdivoCore::Code
+  public let message: Swift::String
+  public let networkCode: Swift::Int?
+  public let networkDomain: Swift::String?
+  public let responseIdentifier: Swift::String?
+  public let networkMessage: Swift::String?
+  public var errorDescription: Swift::String? {
+    get
+  }
+  public init(_ code: AdivoCore::AdivoError.AdivoCore::Code, _ message: Swift::String, networkCode: Swift::Int? = nil, networkMessage: Swift::String? = nil, networkDomain: Swift::String? = nil, responseIdentifier: Swift::String? = nil)
+  public static func == (a: AdivoCore::AdivoError, b: AdivoCore::AdivoError) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct AdivoAdSource : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let id: Swift::String?
+  public let name: Swift::String?
+  public let instanceID: Swift::String?
+  public let instanceName: Swift::String?
+  public let adapterClassName: Swift::String?
+  public init(id: Swift::String? = nil, name: Swift::String? = nil, instanceID: Swift::String? = nil, instanceName: Swift::String? = nil, adapterClassName: Swift::String? = nil)
+  public static func == (a: AdivoCore::AdivoAdSource, b: AdivoCore::AdivoAdSource) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+@_Concurrency::MainActor public protocol AdivoPrivacyProvider : AnyObject {
+  @_Concurrency::MainActor var canRequestAds: Swift::Bool { get }
+}
+public struct AdivoAdInfo : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let adUnitID: Swift::String
+  public let format: AdivoCore::AdivoAdFormat
+  public let network: Swift::String
+  public let networkPlacement: Swift::String
+  public let mediationEngine: Swift::String
+  public let source: AdivoCore::AdivoAdSource?
+  public let responseIdentifier: Swift::String?
+  public init(adUnitID: Swift::String, format: AdivoCore::AdivoAdFormat, network: Swift::String, networkPlacement: Swift::String = "", mediationEngine: Swift::String = "unknown", source: AdivoCore::AdivoAdSource? = nil, responseIdentifier: Swift::String? = nil)
+  public static func == (a: AdivoCore::AdivoAdInfo, b: AdivoCore::AdivoAdInfo) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct AdivoShowSession : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let id: Foundation::UUID
+  public let placement: Swift::String
+  public let ad: AdivoCore::AdivoAdInfo
+  public init(id: Foundation::UUID, placement: Swift::String, ad: AdivoCore::AdivoAdInfo)
+  public static func == (a: AdivoCore::AdivoShowSession, b: AdivoCore::AdivoShowSession) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct AdivoReward : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let label: Swift::String
+  public let amount: Foundation::Decimal
+  public init(label: Swift::String, amount: Foundation::Decimal)
+  public static func == (a: AdivoCore::AdivoReward, b: AdivoCore::AdivoReward) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct AdivoRevenue : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let amount: Foundation::Decimal?
+  public let currency: Swift::String
+  public let precision: Swift::String
+  public let network: Swift::String
+  public init(amount: Foundation::Decimal?, currency: Swift::String = "USD", precision: Swift::String, network: Swift::String)
+  public static func == (a: AdivoCore::AdivoRevenue, b: AdivoCore::AdivoRevenue) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public enum AdivoEvent : Swift::Codable, Swift::Sendable {
+  case initialized
+  case loaded(placement: Swift::String, ad: AdivoCore::AdivoAdInfo)
+  case loadFailed(placement: Swift::String, error: AdivoCore::AdivoError)
+  case displayed(AdivoCore::AdivoShowSession)
+  case clicked(AdivoCore::AdivoShowSession)
+  case closed(AdivoCore::AdivoShowSession)
+  case showFailed(session: AdivoCore::AdivoShowSession?, error: AdivoCore::AdivoError)
+  case rewardEarned(session: AdivoCore::AdivoShowSession, reward: AdivoCore::AdivoReward)
+  case revenuePaid(session: AdivoCore::AdivoShowSession, revenue: AdivoCore::AdivoRevenue)
+  case diagnostic(Swift::String)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+extension AdivoCore::AdivoClient : Swift::Sendable {}
+extension AdivoCore::AdivoAdFormat : Swift::Equatable {}
+extension AdivoCore::AdivoAdFormat : Swift::Hashable {}
+extension AdivoCore::AdivoAdFormat : Swift::RawRepresentable {}
+extension AdivoCore::AdivoError.AdivoCore::Code : Swift::Equatable {}
+extension AdivoCore::AdivoError.AdivoCore::Code : Swift::Hashable {}
+extension AdivoCore::AdivoError.AdivoCore::Code : Swift::RawRepresentable {}

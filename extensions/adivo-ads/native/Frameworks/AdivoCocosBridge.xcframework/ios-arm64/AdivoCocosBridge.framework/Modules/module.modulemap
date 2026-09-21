@@ -1,0 +1,5 @@
+framework module AdivoCocosBridge {
+  umbrella header "AdivoCocosBridge.h"
+  export *
+  module * { export * }
+}

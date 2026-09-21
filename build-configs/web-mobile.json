@@ -1,0 +1,13 @@
+{
+  "platform": "web-mobile",
+  "debug": true,
+  "buildPath": "project://build",
+  "outputName": "web-mobile",
+  "name": "Adivo Cocos Demo",
+  "startScene": "4d86d083-0797-4934-b413-3210dfe6cb09",
+  "designResolution": {
+    "width": 1170,
+    "height": 2532,
+    "policy": 4
+  }
+}

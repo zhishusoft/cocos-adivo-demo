@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdivoMAX
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import AdivoCore
+@preconcurrency import AppLovinSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AdivoMAXOptions : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public var sdkKey: Swift::String
+  public var testMode: Swift::Bool
+  public var hasUserConsent: Swift::Bool?
+  public var doNotSell: Swift::Bool?
+  public var verboseLogging: Swift::Bool
+  public var testDeviceAdvertisingIdentifiers: [Swift::String]
+  public init(sdkKey: Swift::String = "", testMode: Swift::Bool = false, hasUserConsent: Swift::Bool? = nil, doNotSell: Swift::Bool? = nil, verboseLogging: Swift::Bool = false, testDeviceAdvertisingIdentifiers: [Swift::String] = [])
+  public static func == (a: AdivoMAX::AdivoMAXOptions, b: AdivoMAX::AdivoMAXOptions) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+@_Concurrency::MainActor final public class AdivoMAXPrivacyProvider : AdivoCore::AdivoPrivacyProvider {
+  @_Concurrency::MainActor public static let shared: AdivoMAX::AdivoMAXPrivacyProvider
+  @_Concurrency::MainActor final public var canRequestAds: Swift::Bool
+  @_Concurrency::MainActor public init(canRequestAds: Swift::Bool = false)
+  @objc deinit
+}
+@_Concurrency::MainActor public enum AdivoMAXIntegration {
+  @_Concurrency::MainActor public static func validate(configuration: AdivoCore::AdivoConfiguration, channels: [AdivoCore::AdivoChannel], options: AdivoMAX::AdivoMAXOptions) throws
+}
+@_hasMissingDesignatedInitializers @_Concurrency::MainActor final public class MAXEngine : AdivoCore::AdivoEngine {
+  @_Concurrency::MainActor final public var onEvent: ((AdivoCore::AdivoEngineEvent) -> Swift::Void)?
+  @_Concurrency::MainActor weak final public var presenter: UIKit::UIViewController?
+  @_Concurrency::MainActor convenience public init(options: AdivoMAX::AdivoMAXOptions, privacy: any AdivoCore::AdivoPrivacyProvider)
+  @_Concurrency::MainActor final public func initialize(configuration: AdivoCore::AdivoConfiguration, completion: @escaping (Swift::Result<Swift::Void, AdivoCore::AdivoError>) -> Swift::Void)
+  @_Concurrency::MainActor final public func privacyDidChange()
+  @_Concurrency::MainActor final public func load(unit: AdivoCore::AdivoPlacement, attemptID: Foundation::UUID)
+  @_Concurrency::MainActor final public func isReady(adUnitID: Swift::String) -> Swift::Bool
+  @_Concurrency::MainActor final public func show(unit: AdivoCore::AdivoPlacement, placement: Swift::String, sessionID: Foundation::UUID)
+  @_Concurrency::MainActor final public func showMediationDebugger()
+  @objc deinit
+}
+extension AdivoMAX::AdivoMAXPrivacyProvider : Swift::Sendable {}
+extension AdivoMAX::AdivoMAXIntegration : Swift::Sendable {}
+extension AdivoMAX::MAXEngine : Swift::Sendable {}

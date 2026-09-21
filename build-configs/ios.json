@@ -1,0 +1,35 @@
+{
+  "platform": "ios",
+  "debug": true,
+  "buildPath": "project://build",
+  "outputName": "ios",
+  "name": "AdivoCocosDemo",
+  "startScene": "4d86d083-0797-4934-b413-3210dfe6cb09",
+  "designResolution": {
+    "width": 1170,
+    "height": 2532,
+    "policy": 4
+  },
+  "packages": {
+    "ios": {
+      "packageName": "com.example.yourgame",
+      "orientation": {
+        "portrait": true,
+        "landscapeLeft": false,
+        "landscapeRight": false,
+        "upsideDown": false
+      },
+      "renderBackEnd": {
+        "metal": true,
+        "gles3": false,
+        "gles2": false
+      },
+      "skipUpdateXcodeProject": false,
+      "targetVersion": "15.0",
+      "osTarget": {
+        "iphoneos": true,
+        "simulator": false
+      }
+    }
+  }
+}

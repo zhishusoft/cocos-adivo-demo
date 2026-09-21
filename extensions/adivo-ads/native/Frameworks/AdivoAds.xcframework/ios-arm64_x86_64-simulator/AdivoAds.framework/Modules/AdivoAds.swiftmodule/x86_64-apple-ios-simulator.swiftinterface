@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdivoAds
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import AdivoCore
+import AdivoMAX
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency::MainActor final public class AdivoAdEngine {
+  @_Concurrency::MainActor final public var isStarted: Swift::Bool {
+    get
+  }
+  @_Concurrency::MainActor final public var onDiagnostic: ((Swift::String) -> Swift::Void)?
+  @_Concurrency::MainActor public init(configuration: AdivoAds::AdivoConfiguration, channels: [AdivoAds::AdivoChannel] = [], options: AdivoAds::AdivoMAXOptions = .init(), privacy: (any AdivoCore::AdivoPrivacyProvider)? = nil)
+  @_Concurrency::MainActor public init(configuration: AdivoAds::AdivoConfiguration, engine: any AdivoCore::AdivoEngine)
+  @_Concurrency::MainActor final public func start(from presenter: UIKit::UIViewController? = nil) async throws
+  @discardableResult
+  @_Concurrency::MainActor final public func load(_ placement: Swift::String) async throws -> AdivoAds::AdivoAdInfo
+  @_Concurrency::MainActor final public func isReady(_ placement: Swift::String) -> Swift::Bool
+  @discardableResult
+  @_Concurrency::MainActor final public func show(_ placement: Swift::String, from presenter: UIKit::UIViewController? = nil, rewardBlock: AdivoAds::AdivoRewardBlock? = nil) async throws -> AdivoAds::AdivoShowSession
+  @_Concurrency::MainActor final public func start(from presenter: UIKit::UIViewController? = nil, completion: @escaping (Swift::Result<Swift::Void, AdivoAds::AdivoError>) -> Swift::Void)
+  @_Concurrency::MainActor final public func load(_ placement: Swift::String, completion: @escaping AdivoCore::AdivoClient.AdivoCore::LoadCompletion)
+  @_Concurrency::MainActor final public func show(_ placement: Swift::String, from presenter: UIKit::UIViewController? = nil, rewardBlock: AdivoAds::AdivoRewardBlock? = nil, completion: @escaping AdivoCore::AdivoClient.AdivoCore::ShowCompletion)
+  @_Concurrency::MainActor final public func showMediationDebugger()
+  @objc deinit
+}
+public typealias AdivoConfiguration = AdivoCore::AdivoConfiguration
+public typealias AdivoPlacementCatalog = AdivoCore::AdivoPlacementCatalog
+public typealias AdivoPlacement = AdivoCore::AdivoPlacement
+public typealias AdivoAdFormat = AdivoCore::AdivoAdFormat
+public typealias AdivoChannel = AdivoCore::AdivoChannel
+public typealias AdivoEvent = AdivoCore::AdivoEvent
+public typealias AdivoError = AdivoCore::AdivoError
+public typealias AdivoAdInfo = AdivoCore::AdivoAdInfo
+public typealias AdivoAdSource = AdivoCore::AdivoAdSource
+public typealias AdivoShowSession = AdivoCore::AdivoShowSession
+public typealias AdivoRewardBlock = AdivoCore::AdivoClient.AdivoCore::RewardBlock
+public typealias AdivoReward = AdivoCore::AdivoReward
+public typealias AdivoRevenue = AdivoCore::AdivoRevenue
+public typealias AdivoPrivacyProvider = AdivoCore::AdivoPrivacyProvider
+public typealias AdivoMAXOptions = AdivoMAX::AdivoMAXOptions
+public typealias AdivoMAXPrivacyProvider = AdivoMAX::AdivoMAXPrivacyProvider
+@_hasMissingDesignatedInitializers @_Concurrency::MainActor final public class Adivo {
+  @_Concurrency::MainActor public static let shared: AdivoAds::Adivo
+  @_Concurrency::MainActor final public var onEvent: ((AdivoAds::AdivoEvent) -> Swift::Void)?
+  @_Concurrency::MainActor final public var isInitialized: Swift::Bool {
+    get
+  }
+  @_Concurrency::MainActor final public func initialize(configuration: AdivoAds::AdivoConfiguration, channels: [AdivoAds::AdivoChannel] = [], options: AdivoAds::AdivoMAXOptions = .init(), privacy: (any AdivoCore::AdivoPrivacyProvider)? = nil, completion: @escaping (Swift::Result<Swift::Void, AdivoAds::AdivoError>) -> Swift::Void)
+  @_Concurrency::MainActor final public func load(placement: Swift::String, completion: @escaping AdivoCore::AdivoClient.AdivoCore::LoadCompletion)
+  @_Concurrency::MainActor final public func isReady(placement: Swift::String) -> Swift::Bool
+  @_Concurrency::MainActor final public func show(placement: Swift::String, from presenter: UIKit::UIViewController, rewardBlock: AdivoAds::AdivoRewardBlock? = nil, completion: @escaping AdivoCore::AdivoClient.AdivoCore::ShowCompletion)
+  @_Concurrency::MainActor final public func privacyDidChange()
+  @_Concurrency::MainActor final public func showMediationDebugger()
+  @objc deinit
+}
+extension AdivoAds::Adivo {
+  @_Concurrency::MainActor final public func initialize(configuration: AdivoAds::AdivoConfiguration, channels: [AdivoAds::AdivoChannel] = [], options: AdivoAds::AdivoMAXOptions = .init(), privacy: (any AdivoCore::AdivoPrivacyProvider)? = nil) async throws
+  @_Concurrency::MainActor final public func load(placement: Swift::String) async throws -> AdivoAds::AdivoAdInfo
+  @_Concurrency::MainActor final public func show(placement: Swift::String, from presenter: UIKit::UIViewController) async throws -> AdivoAds::AdivoShowSession
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdivoObjC) @_Concurrency::MainActor final public class AdivoObjC : ObjectiveC::NSObject {
+  @objc @_Concurrency::MainActor public static let shared: AdivoAds::AdivoObjC
+  @objc @_Concurrency::MainActor final public var eventHandler: ((Foundation::NSDictionary) -> Swift::Void)?
+  @objc @_Concurrency::MainActor final public var canRequestAdsHandler: (() -> Swift::Bool)?
+  @objc(initializeWithConfigurationJSON:completion:) @_Concurrency::MainActor final public func initialize(configurationJSON: Foundation::Data, completion: @escaping (Foundation::NSError?) -> Swift::Void)
+  @objc(loadPlacement:completion:) @_Concurrency::MainActor final public func load(placement: Swift::String, completion: @escaping (Foundation::NSError?) -> Swift::Void)
+  @objc(isReadyForPlacement:) @_Concurrency::MainActor final public func isReady(placement: Swift::String) -> Swift::Bool
+  @objc(showPlacement:fromViewController:completion:) @_Concurrency::MainActor final public func show(placement: Swift::String, from presenter: UIKit::UIViewController, completion: @escaping (Foundation::NSError?) -> Swift::Void)
+  @objc @_Concurrency::MainActor final public func privacyDidChange()
+  @objc @_Concurrency::MainActor final public func showMediationDebugger()
+  @objc deinit
+}
+extension AdivoAds::AdivoAdEngine : Swift::Sendable {}
+extension AdivoAds::Adivo : Swift::Sendable {}
+extension AdivoAds::AdivoObjC : Swift::Sendable {}

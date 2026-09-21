@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "0.1.0",
+  "appLovinSDK": "13.6.4",
+  "minimumIOS": "15.0",
+  "frameworks": [
+    "AdivoCore",
+    "AdivoMAX",
+    "AdivoAds",
+    "AdivoCocosBridge"
+  ],
+  "files": {
+    "extensions/adivo-ads/native/Frameworks/AdivoAds.xcframework/ios-arm64/AdivoAds.framework/AdivoAds": "b28e1bc3d5b249969ebee4e3b7b7d9c48d9201f100c5ac326f494adabe8c4a0f",
+    "extensions/adivo-ads/native/Frameworks/AdivoAds.xcframework/ios-arm64/AdivoAds.framework/PrivacyInfo.xcprivacy": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3",
+    "extensions/adivo-ads/native/Frameworks/AdivoAds.xcframework/ios-arm64_x86_64-simulator/AdivoAds.framework/AdivoAds": "3855e5e0faa01723be974d4b8199569d9cc0da5c7b0135dda01c09aee3788000",
+    "extensions/adivo-ads/native/Frameworks/AdivoAds.xcframework/ios-arm64_x86_64-simulator/AdivoAds.framework/PrivacyInfo.xcprivacy": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3",
+    "extensions/adivo-ads/native/Frameworks/AdivoCocosBridge.xcframework/ios-arm64/AdivoCocosBridge.framework/AdivoCocosBridge": "5c568eabf4b7abf81e326b5b3c0f8979cd182ae6a8c07a0debac20065d38a8ff",
+    "extensions/adivo-ads/native/Frameworks/AdivoCocosBridge.xcframework/ios-arm64/AdivoCocosBridge.framework/PrivacyInfo.xcprivacy": "80786716c3d3883870940efc2559177240bc5ce812f5ea63801f0a12d9159c91",
+    "extensions/adivo-ads/native/Frameworks/AdivoCocosBridge.xcframework/ios-arm64_x86_64-simulator/AdivoCocosBridge.framework/AdivoCocosBridge": "e6dbfbf9749b4d0ed126a82a2bfc64a8c49c65a6959028de2cdf2aa678b44691",
+    "extensions/adivo-ads/native/Frameworks/AdivoCocosBridge.xcframework/ios-arm64_x86_64-simulator/AdivoCocosBridge.framework/PrivacyInfo.xcprivacy": "80786716c3d3883870940efc2559177240bc5ce812f5ea63801f0a12d9159c91",
+    "extensions/adivo-ads/native/Frameworks/AdivoCore.xcframework/ios-arm64/AdivoCore.framework/AdivoCore": "1fdd472fc5ea58ecf04049949d1b6f4ba84489bf88d3fc27ad2a235e3582bd29",
+    "extensions/adivo-ads/native/Frameworks/AdivoCore.xcframework/ios-arm64/AdivoCore.framework/PrivacyInfo.xcprivacy": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3",
+    "extensions/adivo-ads/native/Frameworks/AdivoCore.xcframework/ios-arm64_x86_64-simulator/AdivoCore.framework/AdivoCore": "da2097009b4c7f97516c0e28601085d09ec38c80cf3e6fa49487ec2728174505",
+    "extensions/adivo-ads/native/Frameworks/AdivoCore.xcframework/ios-arm64_x86_64-simulator/AdivoCore.framework/PrivacyInfo.xcprivacy": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3",
+    "extensions/adivo-ads/native/Frameworks/AdivoMAX.xcframework/ios-arm64/AdivoMAX.framework/AdivoMAX": "b8aefa0f33000445e722c8d716ee8059c147b9e69b4a845f7ad6266b04a4fcde",
+    "extensions/adivo-ads/native/Frameworks/AdivoMAX.xcframework/ios-arm64/AdivoMAX.framework/PrivacyInfo.xcprivacy": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3",
+    "extensions/adivo-ads/native/Frameworks/AdivoMAX.xcframework/ios-arm64_x86_64-simulator/AdivoMAX.framework/AdivoMAX": "d3c04025584ed9690f4664f37147813e26dca6b1537d3c18819f380024e3fbdf",
+    "extensions/adivo-ads/native/Frameworks/AdivoMAX.xcframework/ios-arm64_x86_64-simulator/AdivoMAX.framework/PrivacyInfo.xcprivacy": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3"
+  }
+}

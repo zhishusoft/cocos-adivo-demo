@@ -1,0 +1,1873 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdivoMAX",
+    "printedName": "AdivoMAX",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoCore",
+        "printedName": "AdivoCore",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdivoMAXOptions",
+        "printedName": "AdivoMAXOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkKey",
+            "printedName": "sdkKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV6sdkKeySSvp",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV6sdkKeySSvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV6sdkKeySSvg",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV6sdkKeySSvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV6sdkKeySSvs",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV6sdkKeySSvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV6sdkKeySSvM",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV6sdkKeySSvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testMode",
+            "printedName": "testMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV8testModeSbvp",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV8testModeSbvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV8testModeSbvg",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV8testModeSbvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV8testModeSbvs",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV8testModeSbvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV8testModeSbvM",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV8testModeSbvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasUserConsent",
+            "printedName": "hasUserConsent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvp",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvg",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvs",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvM",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV14hasUserConsentSbSgvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doNotSell",
+            "printedName": "doNotSell",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvp",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvg",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvs",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvM",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV9doNotSellSbSgvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verboseLogging",
+            "printedName": "verboseLogging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvp",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvg",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvs",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvM",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV14verboseLoggingSbvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testDeviceAdvertisingIdentifiers",
+            "printedName": "testDeviceAdvertisingIdentifiers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvp",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvg",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvs",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvM",
+                "mangledName": "$s8AdivoMAX0A10MAXOptionsV32testDeviceAdvertisingIdentifiersSaySSGvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkKey:testMode:hasUserConsent:doNotSell:verboseLogging:testDeviceAdvertisingIdentifiers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV6sdkKey8testMode14hasUserConsent9doNotSell14verboseLogging0F28DeviceAdvertisingIdentifiersACSS_S2bSgAJSbSaySSGtcfc",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV6sdkKey8testMode14hasUserConsent9doNotSell14verboseLogging0F28DeviceAdvertisingIdentifiersACSS_S2bSgAJSbSaySSGtcfc",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AdivoMAX",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AdivoMAX",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX0A10MAXOptionsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8AdivoMAX0A10MAXOptionsV2eeoiySbAC_ACtFZ",
+            "moduleName": "AdivoMAX",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8AdivoMAX0A10MAXOptionsV",
+        "mangledName": "$s8AdivoMAX0A10MAXOptionsV",
+        "moduleName": "AdivoMAX",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdivoMAXPrivacyProvider",
+        "printedName": "AdivoMAXPrivacyProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXPrivacyProvider",
+                "printedName": "AdivoMAX.AdivoMAXPrivacyProvider",
+                "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC6sharedACvpZ",
+            "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC6sharedACvpZ",
+            "moduleName": "AdivoMAX",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoMAXPrivacyProvider",
+                    "printedName": "AdivoMAX.AdivoMAXPrivacyProvider",
+                    "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC6sharedACvgZ",
+                "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC6sharedACvgZ",
+                "moduleName": "AdivoMAX",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canRequestAds",
+            "printedName": "canRequestAds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvp",
+            "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvg",
+                "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvs",
+                "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvM",
+                "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsSbvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(canRequestAds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXPrivacyProvider",
+                "printedName": "AdivoMAX.AdivoMAXPrivacyProvider",
+                "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsACSb_tcfc",
+            "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC13canRequestAdsACSb_tcfc",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8AdivoMAX0A18MAXPrivacyProviderC",
+        "mangledName": "$s8AdivoMAX0A18MAXPrivacyProviderC",
+        "moduleName": "AdivoMAX",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdivoPrivacyProvider",
+            "printedName": "AdivoPrivacyProvider",
+            "usr": "s:9AdivoCore0A15PrivacyProviderP",
+            "mangledName": "$s9AdivoCore0A15PrivacyProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdivoMAXIntegration",
+        "printedName": "AdivoMAXIntegration",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(configuration:channels:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoConfiguration",
+                "printedName": "AdivoCore.AdivoConfiguration",
+                "usr": "s:9AdivoCore0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdivoCore.AdivoChannel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoChannel",
+                    "printedName": "AdivoCore.AdivoChannel",
+                    "usr": "s:9AdivoCore0A7ChannelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX0A14MAXIntegrationO8validate13configuration8channels7optionsy0A4Core0A13ConfigurationV_SayAH0A7ChannelVGAA0A10MAXOptionsVtKFZ",
+            "mangledName": "$s8AdivoMAX0A14MAXIntegrationO8validate13configuration8channels7optionsy0A4Core0A13ConfigurationV_SayAH0A7ChannelVGAA0A10MAXOptionsVtKFZ",
+            "moduleName": "AdivoMAX",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8AdivoMAX0A14MAXIntegrationO",
+        "mangledName": "$s8AdivoMAX0A14MAXIntegrationO",
+        "moduleName": "AdivoMAX",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoCore",
+        "printedName": "AdivoCore",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MAXEngine",
+        "printedName": "MAXEngine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onEvent",
+            "printedName": "onEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AdivoCore.AdivoEngineEvent) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdivoCore.AdivoEngineEvent) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoEngineEvent",
+                        "printedName": "AdivoCore.AdivoEngineEvent",
+                        "usr": "s:9AdivoCore0A11EngineEventO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvp",
+            "mangledName": "$s8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((AdivoCore.AdivoEngineEvent) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AdivoCore.AdivoEngineEvent) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoEngineEvent",
+                            "printedName": "AdivoCore.AdivoEngineEvent",
+                            "usr": "s:9AdivoCore0A11EngineEventO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvg",
+                "mangledName": "$s8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((AdivoCore.AdivoEngineEvent) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AdivoCore.AdivoEngineEvent) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoEngineEvent",
+                            "printedName": "AdivoCore.AdivoEngineEvent",
+                            "usr": "s:9AdivoCore0A11EngineEventO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvs",
+                "mangledName": "$s8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvM",
+                "mangledName": "$s8AdivoMAX9MAXEngineC7onEventy0A4Core0a6EngineE0OcSgvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presenter",
+            "printedName": "presenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvp",
+            "mangledName": "$s8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvp",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvg",
+                "mangledName": "$s8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvg",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvs",
+                "mangledName": "$s8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvs",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvM",
+                "mangledName": "$s8AdivoMAX9MAXEngineC9presenterSo16UIViewControllerCSgvM",
+                "moduleName": "AdivoMAX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(options:privacy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MAXEngine",
+                "printedName": "AdivoMAX.MAXEngine",
+                "usr": "s:8AdivoMAX9MAXEngineC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoPrivacyProvider",
+                "printedName": "any AdivoCore.AdivoPrivacyProvider",
+                "usr": "s:9AdivoCore0A15PrivacyProviderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdivoMAX9MAXEngineC7options7privacyAcA0A10MAXOptionsV_0A4Core0A15PrivacyProvider_ptcfc",
+            "mangledName": "$s8AdivoMAX9MAXEngineC7options7privacyAcA0A10MAXOptionsV_0A4Core0A15PrivacyProvider_ptcfc",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(configuration:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoConfiguration",
+                "printedName": "AdivoCore.AdivoConfiguration",
+                "usr": "s:9AdivoCore0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX9MAXEngineC10initialize13configuration10completiony0A4Core0A13ConfigurationV_ys6ResultOyytAG0A5ErrorVGctF",
+            "mangledName": "$s8AdivoMAX9MAXEngineC10initialize13configuration10completiony0A4Core0A13ConfigurationV_ys6ResultOyytAG0A5ErrorVGctF",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "privacyDidChange",
+            "printedName": "privacyDidChange()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX9MAXEngineC16privacyDidChangeyyF",
+            "mangledName": "$s8AdivoMAX9MAXEngineC16privacyDidChangeyyF",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(unit:attemptID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoPlacement",
+                "printedName": "AdivoCore.AdivoPlacement",
+                "usr": "s:9AdivoCore0A9PlacementV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX9MAXEngineC4load4unit9attemptIDy0A4Core0A9PlacementV_10Foundation4UUIDVtF",
+            "mangledName": "$s8AdivoMAX9MAXEngineC4load4unit9attemptIDy0A4Core0A9PlacementV_10Foundation4UUIDVtF",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isReady",
+            "printedName": "isReady(adUnitID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX9MAXEngineC7isReady8adUnitIDSbSS_tF",
+            "mangledName": "$s8AdivoMAX9MAXEngineC7isReady8adUnitIDSbSS_tF",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(unit:placement:sessionID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoPlacement",
+                "printedName": "AdivoCore.AdivoPlacement",
+                "usr": "s:9AdivoCore0A9PlacementV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX9MAXEngineC4show4unit9placement9sessionIDy0A4Core0A9PlacementV_SS10Foundation4UUIDVtF",
+            "mangledName": "$s8AdivoMAX9MAXEngineC4show4unit9placement9sessionIDy0A4Core0A9PlacementV_SS10Foundation4UUIDVtF",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMediationDebugger",
+            "printedName": "showMediationDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoMAX9MAXEngineC21showMediationDebuggeryyF",
+            "mangledName": "$s8AdivoMAX9MAXEngineC21showMediationDebuggeryyF",
+            "moduleName": "AdivoMAX",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8AdivoMAX9MAXEngineC",
+        "mangledName": "$s8AdivoMAX9MAXEngineC",
+        "moduleName": "AdivoMAX",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdivoEngine",
+            "printedName": "AdivoEngine",
+            "usr": "s:9AdivoCore0A6EngineP",
+            "mangledName": "$s9AdivoCore0A6EngineP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoCore",
+        "printedName": "AdivoCore",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AdivoMAX",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 494,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "kind": "Array",
+      "offset": 546,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 428,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "Dictionary",
+      "offset": 476,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "Dictionary",
+      "offset": 527,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "Dictionary",
+      "offset": 572,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "kind": "Array",
+      "offset": 615,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1152,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "kind": "Array",
+      "offset": 1361,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "kind": "Dictionary",
+      "offset": 1404,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

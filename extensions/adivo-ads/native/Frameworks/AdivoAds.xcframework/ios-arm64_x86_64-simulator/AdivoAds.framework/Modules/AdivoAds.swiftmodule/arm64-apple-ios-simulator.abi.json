@@ -1,0 +1,2382 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdivoAds",
+    "printedName": "AdivoAds",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoCore",
+        "printedName": "AdivoCore",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoMAX",
+        "printedName": "AdivoMAX",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdivoAdEngine",
+        "printedName": "AdivoAdEngine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isStarted",
+            "printedName": "isStarted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoAds0A8AdEngineC9isStartedSbvp",
+            "mangledName": "$s8AdivoAds0A8AdEngineC9isStartedSbvp",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A8AdEngineC9isStartedSbvg",
+                "mangledName": "$s8AdivoAds0A8AdEngineC9isStartedSbvg",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDiagnostic",
+            "printedName": "onDiagnostic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoAds0A8AdEngineC12onDiagnosticySScSgvp",
+            "mangledName": "$s8AdivoAds0A8AdEngineC12onDiagnosticySScSgvp",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A8AdEngineC12onDiagnosticySScSgvg",
+                "mangledName": "$s8AdivoAds0A8AdEngineC12onDiagnosticySScSgvg",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A8AdEngineC12onDiagnosticySScSgvs",
+                "mangledName": "$s8AdivoAds0A8AdEngineC12onDiagnosticySScSgvs",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A8AdEngineC12onDiagnosticySScSgvM",
+                "mangledName": "$s8AdivoAds0A8AdEngineC12onDiagnosticySScSgvM",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:channels:options:privacy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoAdEngine",
+                "printedName": "AdivoAds.AdivoAdEngine",
+                "usr": "s:8AdivoAds0A8AdEngineC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoConfiguration",
+                "printedName": "AdivoCore.AdivoConfiguration",
+                "usr": "s:9AdivoCore0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdivoCore.AdivoChannel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoChannel",
+                    "printedName": "AdivoCore.AdivoChannel",
+                    "usr": "s:9AdivoCore0A7ChannelV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "hasDefaultArg": true,
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdivoCore.AdivoPrivacyProvider)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoPrivacyProvider",
+                    "printedName": "any AdivoCore.AdivoPrivacyProvider",
+                    "usr": "s:9AdivoCore0A15PrivacyProviderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdivoAds0A8AdEngineC13configuration8channels7options7privacyAC0A4Core0A13ConfigurationV_SayAH0A7ChannelVG0A3MAX0A10MAXOptionsVAH0A15PrivacyProvider_pSgtcfc",
+            "mangledName": "$s8AdivoAds0A8AdEngineC13configuration8channels7options7privacyAC0A4Core0A13ConfigurationV_SayAH0A7ChannelVG0A3MAX0A10MAXOptionsVAH0A15PrivacyProvider_pSgtcfc",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:engine:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoAdEngine",
+                "printedName": "AdivoAds.AdivoAdEngine",
+                "usr": "s:8AdivoAds0A8AdEngineC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoConfiguration",
+                "printedName": "AdivoCore.AdivoConfiguration",
+                "usr": "s:9AdivoCore0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoEngine",
+                "printedName": "any AdivoCore.AdivoEngine",
+                "usr": "s:9AdivoCore0A6EngineP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdivoAds0A8AdEngineC13configuration6engineAC0A4Core0A13ConfigurationV_AF0aD0_ptcfc",
+            "mangledName": "$s8AdivoAds0A8AdEngineC13configuration6engineAC0A4Core0A13ConfigurationV_AF0aD0_ptcfc",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC5start4fromySo16UIViewControllerCSg_tYaKF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC5start4fromySo16UIViewControllerCSg_tYaKF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoAdInfo",
+                "printedName": "AdivoCore.AdivoAdInfo",
+                "usr": "s:9AdivoCore0A6AdInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC4loady0A4Core0aC4InfoVSSYaKF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC4loady0A4Core0aC4InfoVSSYaKF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isReady",
+            "printedName": "isReady(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC7isReadyySbSSF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC7isReadyySbSSF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:from:rewardBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoShowSession",
+                "printedName": "AdivoCore.AdivoShowSession",
+                "usr": "s:9AdivoCore0A11ShowSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AdivoCore.AdivoShowSession, AdivoCore.AdivoReward) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdivoCore.AdivoShowSession, AdivoCore.AdivoReward) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(AdivoCore.AdivoShowSession, AdivoCore.AdivoReward)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoShowSession",
+                            "printedName": "AdivoCore.AdivoShowSession",
+                            "usr": "s:9AdivoCore0A11ShowSessionV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoReward",
+                            "printedName": "AdivoCore.AdivoReward",
+                            "usr": "s:9AdivoCore0A6RewardV"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC4show_4from11rewardBlock0A4Core0A11ShowSessionVSS_So16UIViewControllerCSgyAI_AG0A6RewardVtcSgtYaKF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC4show_4from11rewardBlock0A4Core0A11ShowSessionVSS_So16UIViewControllerCSgyAI_AG0A6RewardVtcSgtYaKF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC5start4from10completionySo16UIViewControllerCSg_ys6ResultOyyt0A4Core0A5ErrorVGctF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC5start4from10completionySo16UIViewControllerCSg_ys6ResultOyyt0A4Core0A5ErrorVGctF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AdivoCore.AdivoAdInfo, AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AdivoCore.AdivoAdInfo, AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoAdInfo",
+                        "printedName": "AdivoCore.AdivoAdInfo",
+                        "usr": "s:9AdivoCore0A6AdInfoV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC4load_10completionySS_ys6ResultOy0A4Core0aC4InfoVAH0A5ErrorVGctF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC4load_10completionySS_ys6ResultOy0A4Core0aC4InfoVAH0A5ErrorVGctF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:from:rewardBlock:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AdivoCore.AdivoShowSession, AdivoCore.AdivoReward) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdivoCore.AdivoShowSession, AdivoCore.AdivoReward) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(AdivoCore.AdivoShowSession, AdivoCore.AdivoReward)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoShowSession",
+                            "printedName": "AdivoCore.AdivoShowSession",
+                            "usr": "s:9AdivoCore0A11ShowSessionV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoReward",
+                            "printedName": "AdivoCore.AdivoReward",
+                            "usr": "s:9AdivoCore0A6RewardV"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AdivoCore.AdivoShowSession, AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AdivoCore.AdivoShowSession, AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoShowSession",
+                        "printedName": "AdivoCore.AdivoShowSession",
+                        "usr": "s:9AdivoCore0A11ShowSessionV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC4show_4from11rewardBlock10completionySS_So16UIViewControllerCSgy0A4Core0A11ShowSessionV_AK0A6RewardVtcSgys6ResultOyAmK0A5ErrorVGctF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC4show_4from11rewardBlock10completionySS_So16UIViewControllerCSgy0A4Core0A11ShowSessionV_AK0A6RewardVtcSgys6ResultOyAmK0A5ErrorVGctF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMediationDebugger",
+            "printedName": "showMediationDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A8AdEngineC21showMediationDebuggeryyF",
+            "mangledName": "$s8AdivoAds0A8AdEngineC21showMediationDebuggeryyF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8AdivoAds0A8AdEngineC",
+        "mangledName": "$s8AdivoAds0A8AdEngineC",
+        "moduleName": "AdivoAds",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoCore",
+        "printedName": "AdivoCore",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoMAX",
+        "printedName": "AdivoMAX",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Adivo",
+        "printedName": "Adivo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Adivo",
+                "printedName": "AdivoAds.Adivo",
+                "usr": "s:8AdivoAds0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoAds0A0C6sharedACvpZ",
+            "mangledName": "$s8AdivoAds0A0C6sharedACvpZ",
+            "moduleName": "AdivoAds",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Adivo",
+                    "printedName": "AdivoAds.Adivo",
+                    "usr": "s:8AdivoAds0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A0C6sharedACvgZ",
+                "mangledName": "$s8AdivoAds0A0C6sharedACvgZ",
+                "moduleName": "AdivoAds",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onEvent",
+            "printedName": "onEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AdivoCore.AdivoEvent) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdivoCore.AdivoEvent) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoEvent",
+                        "printedName": "AdivoCore.AdivoEvent",
+                        "usr": "s:9AdivoCore0A5EventO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvp",
+            "mangledName": "$s8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvp",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((AdivoCore.AdivoEvent) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AdivoCore.AdivoEvent) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoEvent",
+                            "printedName": "AdivoCore.AdivoEvent",
+                            "usr": "s:9AdivoCore0A5EventO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvg",
+                "mangledName": "$s8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvg",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((AdivoCore.AdivoEvent) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AdivoCore.AdivoEvent) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoEvent",
+                            "printedName": "AdivoCore.AdivoEvent",
+                            "usr": "s:9AdivoCore0A5EventO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvs",
+                "mangledName": "$s8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvs",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvM",
+                "mangledName": "$s8AdivoAds0A0C7onEventy0A4Core0aD0OcSgvM",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdivoAds0A0C13isInitializedSbvp",
+            "mangledName": "$s8AdivoAds0A0C13isInitializedSbvp",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A0C13isInitializedSbvg",
+                "mangledName": "$s8AdivoAds0A0C13isInitializedSbvg",
+                "moduleName": "AdivoAds",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(configuration:channels:options:privacy:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoConfiguration",
+                "printedName": "AdivoCore.AdivoConfiguration",
+                "usr": "s:9AdivoCore0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdivoCore.AdivoChannel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoChannel",
+                    "printedName": "AdivoCore.AdivoChannel",
+                    "usr": "s:9AdivoCore0A7ChannelV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "hasDefaultArg": true,
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdivoCore.AdivoPrivacyProvider)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoPrivacyProvider",
+                    "printedName": "any AdivoCore.AdivoPrivacyProvider",
+                    "usr": "s:9AdivoCore0A15PrivacyProviderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C10initialize13configuration8channels7options7privacy10completiony0A4Core0A13ConfigurationV_SayAJ0A7ChannelVG0A3MAX0A10MAXOptionsVAJ0A15PrivacyProvider_pSgys6ResultOyytAJ0A5ErrorVGctF",
+            "mangledName": "$s8AdivoAds0A0C10initialize13configuration8channels7options7privacy10completiony0A4Core0A13ConfigurationV_SayAJ0A7ChannelVG0A3MAX0A10MAXOptionsVAJ0A15PrivacyProvider_pSgys6ResultOyytAJ0A5ErrorVGctF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(placement:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AdivoCore.AdivoAdInfo, AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AdivoCore.AdivoAdInfo, AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoAdInfo",
+                        "printedName": "AdivoCore.AdivoAdInfo",
+                        "usr": "s:9AdivoCore0A6AdInfoV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C4load9placement10completionySS_ys6ResultOy0A4Core0A6AdInfoVAI0A5ErrorVGctF",
+            "mangledName": "$s8AdivoAds0A0C4load9placement10completionySS_ys6ResultOy0A4Core0A6AdInfoVAI0A5ErrorVGctF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isReady",
+            "printedName": "isReady(placement:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C7isReady9placementSbSS_tF",
+            "mangledName": "$s8AdivoAds0A0C7isReady9placementSbSS_tF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(placement:from:rewardBlock:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AdivoCore.AdivoShowSession, AdivoCore.AdivoReward) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdivoCore.AdivoShowSession, AdivoCore.AdivoReward) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(AdivoCore.AdivoShowSession, AdivoCore.AdivoReward)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoShowSession",
+                            "printedName": "AdivoCore.AdivoShowSession",
+                            "usr": "s:9AdivoCore0A11ShowSessionV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdivoReward",
+                            "printedName": "AdivoCore.AdivoReward",
+                            "usr": "s:9AdivoCore0A6RewardV"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AdivoCore.AdivoShowSession, AdivoCore.AdivoError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AdivoCore.AdivoShowSession, AdivoCore.AdivoError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoShowSession",
+                        "printedName": "AdivoCore.AdivoShowSession",
+                        "usr": "s:9AdivoCore0A11ShowSessionV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdivoError",
+                        "printedName": "AdivoCore.AdivoError",
+                        "usr": "s:9AdivoCore0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C4show9placement4from11rewardBlock10completionySS_So16UIViewControllerCy0A4Core0A11ShowSessionV_AK0A6RewardVtcSgys6ResultOyAmK0A5ErrorVGctF",
+            "mangledName": "$s8AdivoAds0A0C4show9placement4from11rewardBlock10completionySS_So16UIViewControllerCy0A4Core0A11ShowSessionV_AK0A6RewardVtcSgys6ResultOyAmK0A5ErrorVGctF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "privacyDidChange",
+            "printedName": "privacyDidChange()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C16privacyDidChangeyyF",
+            "mangledName": "$s8AdivoAds0A0C16privacyDidChangeyyF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMediationDebugger",
+            "printedName": "showMediationDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C21showMediationDebuggeryyF",
+            "mangledName": "$s8AdivoAds0A0C21showMediationDebuggeryyF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(configuration:channels:options:privacy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoConfiguration",
+                "printedName": "AdivoCore.AdivoConfiguration",
+                "usr": "s:9AdivoCore0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdivoCore.AdivoChannel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoChannel",
+                    "printedName": "AdivoCore.AdivoChannel",
+                    "usr": "s:9AdivoCore0A7ChannelV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoMAXOptions",
+                "printedName": "AdivoMAX.AdivoMAXOptions",
+                "hasDefaultArg": true,
+                "usr": "s:8AdivoMAX0A10MAXOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdivoCore.AdivoPrivacyProvider)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoPrivacyProvider",
+                    "printedName": "any AdivoCore.AdivoPrivacyProvider",
+                    "usr": "s:9AdivoCore0A15PrivacyProviderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C10initialize13configuration8channels7options7privacyy0A4Core0A13ConfigurationV_SayAI0A7ChannelVG0A3MAX0A10MAXOptionsVAI0A15PrivacyProvider_pSgtYaKF",
+            "mangledName": "$s8AdivoAds0A0C10initialize13configuration8channels7options7privacyy0A4Core0A13ConfigurationV_SayAI0A7ChannelVG0A3MAX0A10MAXOptionsVAI0A15PrivacyProvider_pSgtYaKF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(placement:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoAdInfo",
+                "printedName": "AdivoCore.AdivoAdInfo",
+                "usr": "s:9AdivoCore0A6AdInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C4load9placement0A4Core0A6AdInfoVSS_tYaKF",
+            "mangledName": "$s8AdivoAds0A0C4load9placement0A4Core0A6AdInfoVSS_tYaKF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(placement:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoShowSession",
+                "printedName": "AdivoCore.AdivoShowSession",
+                "usr": "s:9AdivoCore0A11ShowSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdivoAds0A0C4show9placement4from0A4Core0A11ShowSessionVSS_So16UIViewControllerCtYaKF",
+            "mangledName": "$s8AdivoAds0A0C4show9placement4from0A4Core0A11ShowSessionVSS_So16UIViewControllerCtYaKF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8AdivoAds0A0C",
+        "mangledName": "$s8AdivoAds0A0C",
+        "moduleName": "AdivoAds",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdivoCore",
+        "printedName": "AdivoCore",
+        "declKind": "Import",
+        "moduleName": "AdivoAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdivoObjC",
+        "printedName": "AdivoObjC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdivoObjC",
+                "printedName": "AdivoAds.AdivoObjC",
+                "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(cpy)shared",
+            "mangledName": "$s8AdivoAds0A4ObjCC6sharedACvpZ",
+            "moduleName": "AdivoAds",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdivoObjC",
+                    "printedName": "AdivoAds.AdivoObjC",
+                    "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(cm)shared",
+                "mangledName": "$s8AdivoAds0A4ObjCC6sharedACvgZ",
+                "moduleName": "AdivoAds",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventHandler",
+            "printedName": "eventHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSDictionary) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSDictionary) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDictionary",
+                        "printedName": "Foundation.NSDictionary",
+                        "usr": "c:objc(cs)NSDictionary"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(py)eventHandler",
+            "mangledName": "$s8AdivoAds0A4ObjCC12eventHandlerySo12NSDictionaryCcSgvp",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSDictionary) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSDictionary) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSDictionary",
+                            "printedName": "Foundation.NSDictionary",
+                            "usr": "c:objc(cs)NSDictionary"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)eventHandler",
+                "mangledName": "$s8AdivoAds0A4ObjCC12eventHandlerySo12NSDictionaryCcSgvg",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSDictionary) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSDictionary) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSDictionary",
+                            "printedName": "Foundation.NSDictionary",
+                            "usr": "c:objc(cs)NSDictionary"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)setEventHandler:",
+                "mangledName": "$s8AdivoAds0A4ObjCC12eventHandlerySo12NSDictionaryCcSgvs",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A4ObjCC12eventHandlerySo12NSDictionaryCcSgvM",
+                "mangledName": "$s8AdivoAds0A4ObjCC12eventHandlerySo12NSDictionaryCcSgvM",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canRequestAdsHandler",
+            "printedName": "canRequestAdsHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(py)canRequestAdsHandler",
+            "mangledName": "$s8AdivoAds0A4ObjCC010canRequestB7HandlerSbycSgvp",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)canRequestAdsHandler",
+                "mangledName": "$s8AdivoAds0A4ObjCC010canRequestB7HandlerSbycSgvg",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)setCanRequestAdsHandler:",
+                "mangledName": "$s8AdivoAds0A4ObjCC010canRequestB7HandlerSbycSgvs",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdivoAds0A4ObjCC010canRequestB7HandlerSbycSgvM",
+                "mangledName": "$s8AdivoAds0A4ObjCC010canRequestB7HandlerSbycSgvM",
+                "moduleName": "AdivoAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(configurationJSON:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)initializeWithConfigurationJSON:completion:",
+            "mangledName": "$s8AdivoAds0A4ObjCC10initialize17configurationJSON10completiony10Foundation4DataV_ySo7NSErrorCSgctF",
+            "moduleName": "AdivoAds",
+            "objc_name": "initializeWithConfigurationJSON:completion:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(placement:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)loadPlacement:completion:",
+            "mangledName": "$s8AdivoAds0A4ObjCC4load9placement10completionySS_ySo7NSErrorCSgctF",
+            "moduleName": "AdivoAds",
+            "objc_name": "loadPlacement:completion:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isReady",
+            "printedName": "isReady(placement:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)isReadyForPlacement:",
+            "mangledName": "$s8AdivoAds0A4ObjCC7isReady9placementSbSS_tF",
+            "moduleName": "AdivoAds",
+            "objc_name": "isReadyForPlacement:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(placement:from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)showPlacement:fromViewController:completion:",
+            "mangledName": "$s8AdivoAds0A4ObjCC4show9placement4from10completionySS_So16UIViewControllerCySo7NSErrorCSgctF",
+            "moduleName": "AdivoAds",
+            "objc_name": "showPlacement:fromViewController:completion:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "privacyDidChange",
+            "printedName": "privacyDidChange()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)privacyDidChange",
+            "mangledName": "$s8AdivoAds0A4ObjCC16privacyDidChangeyyF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMediationDebugger",
+            "printedName": "showMediationDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC(im)showMediationDebugger",
+            "mangledName": "$s8AdivoAds0A4ObjCC21showMediationDebuggeryyF",
+            "moduleName": "AdivoAds",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdivoAds@objc(cs)AdivoObjC",
+        "mangledName": "$s8AdivoAds0A4ObjCC",
+        "moduleName": "AdivoAds",
+        "objc_name": "AdivoObjC",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAdEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAdEngine.swift",
+      "kind": "Array",
+      "offset": 583,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAds.swift",
+      "kind": "Array",
+      "offset": 1334,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAds.swift",
+      "kind": "Array",
+      "offset": 1554,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAds.swift",
+      "kind": "Array",
+      "offset": 4940,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

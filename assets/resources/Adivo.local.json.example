@@ -1,0 +1,13 @@
+{
+  "sdkKey": "YOUR_MAX_SDK_KEY",
+  "rewardedAdUnitId": "YOUR_MAX_REWARDED_AD_UNIT_ID",
+  "interstitialAdUnitId": "YOUR_MAX_INTERSTITIAL_AD_UNIT_ID",
+  "testMode": true,
+  "canRequestAds": true,
+  "hasUserConsent": false,
+  "doNotSell": false,
+  "verboseLogging": true,
+  "testDeviceAdvertisingIdentifiers": [],
+  "bundleIdentifier": "com.example.yourgame",
+  "developmentTeam": "YOUR_APPLE_DEVELOPMENT_TEAM_ID"
+}

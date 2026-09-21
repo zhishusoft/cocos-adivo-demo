@@ -1,0 +1,12 @@
+{
+  "name": "adivo-ads",
+  "title": "Adivo Ads iOS Binary SDK",
+  "version": "0.1.0",
+  "package_version": 2,
+  "author": "Adivo Ads",
+  "description": "Adds the binary Adivo iOS SDK and AppLovin MAX dependency to Cocos Creator iOS builds.",
+  "main": "./dist/main.js",
+  "contributions": {
+    "builder": "./dist/builder.js"
+  }
+}

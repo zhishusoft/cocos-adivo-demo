@@ -1,0 +1,39 @@
+
+#///////////////////////////
+# Cocos Creator Project
+#///////////////////////////
+
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/native/engine/android/**/*/assets
+
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
+
+# Adivo machine-local configuration
+/assets/resources/Adivo.local.json
+/assets/resources/Adivo.local.json.meta
+
+# Native dependency/build output
+Podfile.lock
+Pods/
+*.xcworkspace/xcuserdata/
+/build-configs/ios.local.json
+
+# Local editor automation; consumers do not need this third-party MCP extension.
+/extensions/cocos-mcp-server/

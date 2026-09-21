@@ -1,0 +1,3 @@
+*.mp4 binary
+*.xcframework/** binary
+*.framework/** binary
