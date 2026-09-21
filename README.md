@@ -9,7 +9,7 @@
 
 ## 演示视频
 
-<video src="docs/demo.mp4" controls playsinline></video>
+[![播放 Adivo Cocos iOS Demo](docs/demo-cover.jpg)](docs/demo.mp4)
 
 [播放或下载 MP4 文件](docs/demo.mp4)
 
