@@ -9,9 +9,9 @@
 
 ## 演示视频
 
-[![播放 Adivo Cocos iOS Demo](docs/demo-cover.jpg)](https://zhishusoft.github.io/cocos-adivo-demo/)
+https://github.com/user-attachments/assets/3d0f3b8b-640d-4767-b6cf-fa7418ad19d3
 
-[在线播放](https://zhishusoft.github.io/cocos-adivo-demo/) · [下载 MP4 文件](docs/demo.mp4)
+[备用在线播放](https://zhishusoft.github.io/cocos-adivo-demo/) · [下载 MP4 文件](docs/demo.mp4)
 
 ## 下载
 
