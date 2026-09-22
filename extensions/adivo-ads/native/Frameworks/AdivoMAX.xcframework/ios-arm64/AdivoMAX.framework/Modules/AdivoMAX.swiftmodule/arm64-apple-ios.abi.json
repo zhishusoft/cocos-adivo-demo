@@ -48,7 +48,8 @@
             "moduleName": "AdivoMAX",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -133,7 +134,8 @@
             "moduleName": "AdivoMAX",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -227,7 +229,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -337,7 +340,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -438,7 +442,8 @@
             "moduleName": "AdivoMAX",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -531,7 +536,8 @@
             "moduleName": "AdivoMAX",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -697,7 +703,8 @@
             "mangledName": "$s8AdivoMAX0A10MAXOptionsV6sdkKey8testMode14hasUserConsent9doNotSell14verboseLogging0F28DeviceAdvertisingIdentifiersACSS_S2bSgAJSbSaySSGtcfc",
             "moduleName": "AdivoMAX",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -790,7 +797,8 @@
         "mangledName": "$s8AdivoMAX0A10MAXOptionsV",
         "moduleName": "AdivoMAX",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -871,7 +879,8 @@
               "Final",
               "HasStorage",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -921,7 +930,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1022,7 +1032,8 @@
             "moduleName": "AdivoMAX",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -1117,7 +1128,8 @@
             "static": true,
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -1129,7 +1141,8 @@
         "moduleName": "AdivoMAX",
         "declAttributes": [
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -1215,7 +1228,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1352,7 +1366,8 @@
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -1476,7 +1491,8 @@
             "declAttributes": [
               "Custom",
               "Convenience",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Convenience"
           },
@@ -1535,7 +1551,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1592,7 +1609,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1621,7 +1639,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1661,7 +1680,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1683,7 +1703,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -1695,7 +1716,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -1758,112 +1780,112 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 980,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
       "kind": "BooleanLiteral",
-      "offset": 395,
+      "offset": 1001,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
       "kind": "BooleanLiteral",
-      "offset": 494,
+      "offset": 1100,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
       "kind": "Array",
-      "offset": 546,
+      "offset": 1152,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/AdivoMAXOptions.swift",
       "kind": "BooleanLiteral",
-      "offset": 1194,
+      "offset": 2050,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 350,
+      "offset": 643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 393,
+      "offset": 686,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 428,
+      "offset": 721,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "Dictionary",
-      "offset": 476,
+      "offset": 769,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "Dictionary",
-      "offset": 527,
+      "offset": 820,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "Dictionary",
-      "offset": 572,
+      "offset": 865,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXEngine.swift",
       "kind": "Array",
-      "offset": 615,
+      "offset": 908,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXRuntime.swift",
       "kind": "BooleanLiteral",
       "offset": 1152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXRuntime.swift",
       "kind": "BooleanLiteral",
       "offset": 1188,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXRuntime.swift",
       "kind": "Array",
       "offset": 1361,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoMAX\/MAXRuntime.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoMAX\/MAXRuntime.swift",
       "kind": "Dictionary",
       "offset": 1404,
       "length": 3,

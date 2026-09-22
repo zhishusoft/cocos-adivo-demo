@@ -52,7 +52,8 @@
               "Custom",
               "HasStorage",
               "SetterAccess",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -121,7 +122,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -298,7 +300,8 @@
             "moduleName": "AdivoAds",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -370,7 +373,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -401,7 +405,8 @@
               "Custom",
               "Final",
               "AccessControl",
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -431,7 +436,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -516,7 +522,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -585,7 +592,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -645,7 +653,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -760,7 +769,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -782,7 +792,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -794,7 +805,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -868,7 +880,8 @@
               "Final",
               "HasStorage",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -939,7 +952,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1074,7 +1088,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1192,7 +1207,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1252,7 +1268,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1281,7 +1298,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1387,7 +1405,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1409,7 +1428,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1431,7 +1451,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1495,7 +1516,8 @@
             "moduleName": "AdivoAds",
             "declAttributes": [
               "Final",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "throwing": true,
@@ -1525,7 +1547,8 @@
             "moduleName": "AdivoAds",
             "declAttributes": [
               "Custom",
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "throwing": true,
@@ -1576,7 +1599,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -1645,7 +1669,8 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1718,7 +1743,8 @@
               "Custom",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2049,7 +2075,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2105,7 +2132,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2136,7 +2164,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2198,7 +2227,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2221,7 +2251,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2244,7 +2275,8 @@
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -2258,7 +2290,8 @@
           "Final",
           "AccessControl",
           "Custom",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -2344,37 +2377,37 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAdEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoAds\/AdivoAdEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 133,
+      "offset": 413,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAdEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoAds\/AdivoAdEngine.swift",
       "kind": "Array",
-      "offset": 583,
+      "offset": 1264,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAds.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoAds\/AdivoAds.swift",
       "kind": "Array",
-      "offset": 1334,
+      "offset": 2316,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAds.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoAds\/AdivoAds.swift",
       "kind": "Array",
-      "offset": 1554,
+      "offset": 3147,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoAds\/AdivoAds.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoAds\/AdivoAds.swift",
       "kind": "Array",
-      "offset": 4940,
+      "offset": 7589,
       "length": 2,
       "value": "[]"
     }

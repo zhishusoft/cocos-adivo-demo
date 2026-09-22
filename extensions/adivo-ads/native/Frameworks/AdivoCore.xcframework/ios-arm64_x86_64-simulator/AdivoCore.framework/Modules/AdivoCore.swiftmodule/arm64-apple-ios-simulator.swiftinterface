@@ -63,7 +63,8 @@ public struct AdivoPlacementCatalog : Swift::Codable, Swift::Equatable, Swift::S
   public init(from decoder: any Swift::Decoder) throws
 }
 public enum AdivoAdFormat : Swift::String, Swift::Codable, Swift::Sendable {
-  case rewarded, interstitial
+  case rewarded
+  case interstitial
   public init?(rawValue: Swift::String)
   public typealias RawValue = Swift::String
   public var rawValue: Swift::String {
@@ -101,10 +102,24 @@ public struct AdivoChannel : Swift::Codable, Swift::Equatable, Swift::Sendable {
 }
 public struct AdivoError : Swift::Error, Foundation::LocalizedError, Swift::Codable, Swift::Equatable, Swift::Sendable {
   public enum Code : Swift::String, Swift::Codable, Swift::Sendable {
-    case invalidConfiguration, configurationConflict, notInitialized, initializationTimedOut
-    case unknownPlacement, placementDisabled, missingAdapter, missingPlatformConfiguration
-    case noFill, loadFailed, loadTimedOut, loadStillRunning, notReady, presentationBusy
-    case invalidPresenter, showFailed, privacyNotReady, unsupportedChannel
+    case invalidConfiguration
+    case configurationConflict
+    case notInitialized
+    case initializationTimedOut
+    case unknownPlacement
+    case placementDisabled
+    case missingAdapter
+    case missingPlatformConfiguration
+    case noFill
+    case loadFailed
+    case loadTimedOut
+    case loadStillRunning
+    case notReady
+    case presentationBusy
+    case invalidPresenter
+    case showFailed
+    case privacyNotReady
+    case unsupportedChannel
     public init?(rawValue: Swift::String)
     public typealias RawValue = Swift::String
     public var rawValue: Swift::String {

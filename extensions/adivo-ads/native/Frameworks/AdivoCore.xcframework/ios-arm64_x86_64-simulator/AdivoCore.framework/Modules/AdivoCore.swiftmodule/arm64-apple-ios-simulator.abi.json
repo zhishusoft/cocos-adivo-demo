@@ -57,7 +57,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -195,7 +196,8 @@
               "Custom",
               "HasStorage",
               "SetterAccess",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -243,7 +245,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -303,7 +306,8 @@
             "declAttributes": [
               "Custom",
               "Convenience",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Convenience"
@@ -357,7 +361,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -417,7 +422,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -446,7 +452,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -546,7 +553,8 @@
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -558,7 +566,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -635,7 +644,8 @@
             "moduleName": "AdivoCore",
             "protocolReq": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -807,7 +817,8 @@
             "sugared_genericSig": "<Self where Self : AdivoCore.AdivoEngine>",
             "protocolReq": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -843,7 +854,8 @@
             "sugared_genericSig": "<Self where Self : AdivoCore.AdivoEngine>",
             "protocolReq": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -874,7 +886,8 @@
             "sugared_genericSig": "<Self where Self : AdivoCore.AdivoEngine>",
             "protocolReq": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -916,7 +929,8 @@
             "sugared_genericSig": "<Self where Self : AdivoCore.AdivoEngine>",
             "protocolReq": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1016,7 +1030,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO6loadedyAC10Foundation4UUIDV_AA0A6AdInfoVtcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO6loadedyAC10Foundation4UUIDV_AA0A6AdInfoVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1085,7 +1102,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO10loadFailedyAC10Foundation4UUIDV_SSAA0A5ErrorVtcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO10loadFailedyAC10Foundation4UUIDV_SSAA0A5ErrorVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1142,7 +1162,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO7expiredyACSS_tcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO7expiredyACSS_tcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1199,7 +1222,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO9displayedyAC10Foundation4UUIDV_tcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO9displayedyAC10Foundation4UUIDV_tcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1256,7 +1282,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO7clickedyAC10Foundation4UUIDV_tcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO7clickedyAC10Foundation4UUIDV_tcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1313,7 +1342,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO6closedyAC10Foundation4UUIDV_tcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO6closedyAC10Foundation4UUIDV_tcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1376,7 +1408,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO10showFailedyAC10Foundation4UUIDV_AA0A5ErrorVtcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO10showFailedyAC10Foundation4UUIDV_AA0A5ErrorVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1439,7 +1474,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO6rewardyAC10Foundation4UUIDV_AA0A6RewardVtcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO6rewardyAC10Foundation4UUIDV_AA0A6RewardVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1502,7 +1540,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO7revenueyAC10Foundation4UUIDV_AA0A7RevenueVtcACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO7revenueyAC10Foundation4UUIDV_AA0A7RevenueVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1552,7 +1593,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A11EngineEventO10diagnosticyACSScACmF",
             "mangledName": "$s9AdivoCore0A11EngineEventO10diagnosticyACSScACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -1560,7 +1604,8 @@
         "mangledName": "$s9AdivoCore0A11EngineEventO",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -1628,7 +1673,8 @@
                 "moduleName": "AdivoCore",
                 "declAttributes": [
                   "HasStorage",
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "isLet": true,
                 "hasStorage": true,
@@ -1672,7 +1718,8 @@
                 "moduleName": "AdivoCore",
                 "declAttributes": [
                   "HasStorage",
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "isLet": true,
                 "hasStorage": true,
@@ -1728,7 +1775,8 @@
                 "mangledName": "$s9AdivoCore0A16PlacementCatalogV9ReferenceV6adUnit7enabledAESS_Sbtcfc",
                 "moduleName": "AdivoCore",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "init_kind": "Designated"
               },
@@ -1755,7 +1803,8 @@
                 "mangledName": "$s9AdivoCore0A16PlacementCatalogV9ReferenceV4fromAEs7Decoder_p_tKcfc",
                 "moduleName": "AdivoCore",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "throwing": true,
                 "init_kind": "Designated"
@@ -1823,7 +1872,8 @@
             "mangledName": "$s9AdivoCore0A16PlacementCatalogV9ReferenceV",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "conformances": [
               {
@@ -1895,7 +1945,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1939,7 +1990,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1983,7 +2035,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2041,7 +2094,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2113,7 +2167,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2229,7 +2284,8 @@
             "mangledName": "$s9AdivoCore0A16PlacementCatalogV13schemaVersion8revision15mediationEngine7adUnits10placementsACSi_S2SSDySSAA0aC0VGSDySSAC9ReferenceVGtcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2256,7 +2312,8 @@
             "mangledName": "$s9AdivoCore0A16PlacementCatalogV7resolve3forAA0A13ConfigurationVSS_tKF",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -2452,7 +2509,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A8AdFormatO8rewardedyA2CmF",
             "mangledName": "$s9AdivoCore0A8AdFormatO8rewardedyA2CmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2489,7 +2549,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A8AdFormatO12interstitialyA2CmF",
             "mangledName": "$s9AdivoCore0A8AdFormatO12interstitialyA2CmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Constructor",
@@ -2569,7 +2632,8 @@
         "mangledName": "$s9AdivoCore0A8AdFormatO",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -2676,7 +2740,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2720,7 +2785,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2764,7 +2830,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2826,7 +2893,8 @@
             "mangledName": "$s9AdivoCore0A9PlacementV8adUnitID6format7enabledACSS_AA0A8AdFormatOSbtcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2853,7 +2921,8 @@
             "mangledName": "$s9AdivoCore0A9PlacementV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -2921,7 +2990,8 @@
         "mangledName": "$s9AdivoCore0A9PlacementV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3012,7 +3082,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3070,7 +3141,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3114,7 +3186,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3191,7 +3264,8 @@
             "mangledName": "$s9AdivoCore0A13ConfigurationV10placements11loadTimeout014initializationF0ACSDySSAA0A9PlacementVG_S2dtcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -3218,7 +3292,8 @@
             "mangledName": "$s9AdivoCore0A13ConfigurationV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -3239,7 +3314,8 @@
             "mangledName": "$s9AdivoCore0A13ConfigurationV8validateyyKF",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -3307,7 +3383,8 @@
         "mangledName": "$s9AdivoCore0A13ConfigurationV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3384,7 +3461,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3428,7 +3506,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3472,7 +3551,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3524,7 +3604,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3608,7 +3689,8 @@
             "mangledName": "$s9AdivoCore0A7ChannelV2id15mediationEngine16adapterClassName21requiredInfoPlistKeysACSS_S2SSaySSGtcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -3701,7 +3783,8 @@
         "mangledName": "$s9AdivoCore0A7ChannelV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3800,7 +3883,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO20invalidConfigurationyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO20invalidConfigurationyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -3837,7 +3923,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO21configurationConflictyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO21configurationConflictyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -3874,7 +3963,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO14notInitializedyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO14notInitializedyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -3911,7 +4003,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO22initializationTimedOutyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO22initializationTimedOutyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -3948,7 +4043,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO16unknownPlacementyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO16unknownPlacementyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -3985,7 +4083,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO17placementDisabledyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO17placementDisabledyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4022,7 +4123,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO14missingAdapteryA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO14missingAdapteryA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4059,7 +4163,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO28missingPlatformConfigurationyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO28missingPlatformConfigurationyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4096,7 +4203,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO6noFillyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO6noFillyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4133,7 +4243,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO10loadFailedyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO10loadFailedyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4170,7 +4283,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO12loadTimedOutyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO12loadTimedOutyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4207,7 +4323,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO16loadStillRunningyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO16loadStillRunningyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4244,7 +4363,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO8notReadyyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO8notReadyyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4281,7 +4403,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO16presentationBusyyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO16presentationBusyyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4318,7 +4443,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO16invalidPresenteryA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO16invalidPresenteryA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4355,7 +4483,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO10showFailedyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO10showFailedyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4392,7 +4523,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO15privacyNotReadyyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO15privacyNotReadyyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -4429,7 +4563,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:9AdivoCore0A5ErrorV4CodeO18unsupportedChannelyA2EmF",
                 "mangledName": "$s9AdivoCore0A5ErrorV4CodeO18unsupportedChannelyA2EmF",
-                "moduleName": "AdivoCore"
+                "moduleName": "AdivoCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Constructor",
@@ -4509,7 +4646,8 @@
             "mangledName": "$s9AdivoCore0A5ErrorV4CodeO",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "enumRawTypeName": "String",
             "conformances": [
@@ -4611,7 +4749,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4655,7 +4794,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4707,7 +4847,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4767,7 +4908,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4827,7 +4969,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4887,7 +5030,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4946,7 +5090,8 @@
             "mangledName": "$s9AdivoCore0A5ErrorV16errorDescriptionSSSgvp",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5066,7 +5211,8 @@
             "mangledName": "$s9AdivoCore0A5ErrorV__11networkCode0D7Message0D6Domain18responseIdentifierA2C0E0O_SSSiSgSSSgA2Ktcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -5159,7 +5305,8 @@
         "mangledName": "$s9AdivoCore0A5ErrorV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5258,7 +5405,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5318,7 +5466,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5378,7 +5527,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5438,7 +5588,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5498,7 +5649,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5624,7 +5776,8 @@
             "mangledName": "$s9AdivoCore0A8AdSourceV2id4name10instanceID0G4Name012adapterClassI0ACSSSg_A4Itcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -5717,7 +5870,8 @@
         "mangledName": "$s9AdivoCore0A8AdSourceV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5794,7 +5948,8 @@
             "moduleName": "AdivoCore",
             "protocolReq": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5830,7 +5985,8 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5872,7 +6028,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5916,7 +6073,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5960,7 +6118,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6004,7 +6163,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6048,7 +6208,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6100,7 +6261,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6160,7 +6322,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6273,7 +6436,8 @@
             "mangledName": "$s9AdivoCore0A6AdInfoV8adUnitID6format7network0I9Placement15mediationEngine6source18responseIdentifierACSS_AA0aC6FormatOS3SAA0aC6SourceVSgSSSgtcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -6366,7 +6530,8 @@
         "mangledName": "$s9AdivoCore0A6AdInfoV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -6443,7 +6608,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6487,7 +6653,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6531,7 +6698,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6592,7 +6760,8 @@
             "mangledName": "$s9AdivoCore0A11ShowSessionV2id9placement2adAC10Foundation4UUIDV_SSAA0A6AdInfoVtcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -6685,7 +6854,8 @@
         "mangledName": "$s9AdivoCore0A11ShowSessionV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -6762,7 +6932,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6806,7 +6977,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6861,7 +7033,8 @@
             "mangledName": "$s9AdivoCore0A6RewardV5label6amountACSS_So9NSDecimalatcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -6954,7 +7127,8 @@
         "mangledName": "$s9AdivoCore0A6RewardV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -7039,7 +7213,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7091,7 +7266,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7135,7 +7311,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7179,7 +7356,8 @@
             "moduleName": "AdivoCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7255,7 +7433,8 @@
             "mangledName": "$s9AdivoCore0A7RevenueV6amount8currency9precision7networkACSo9NSDecimalaSg_S3Stcfc",
             "moduleName": "AdivoCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -7348,7 +7527,8 @@
         "mangledName": "$s9AdivoCore0A7RevenueV",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -7442,7 +7622,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO11initializedyA2CmF",
             "mangledName": "$s9AdivoCore0A5EventO11initializedyA2CmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7505,7 +7688,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO6loadedyACSS_AA0A6AdInfoVtcACmF",
             "mangledName": "$s9AdivoCore0A5EventO6loadedyACSS_AA0A6AdInfoVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7568,7 +7754,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO10loadFailedyACSS_AA0A5ErrorVtcACmF",
             "mangledName": "$s9AdivoCore0A5EventO10loadFailedyACSS_AA0A5ErrorVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7618,7 +7807,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO9displayedyAcA0A11ShowSessionVcACmF",
             "mangledName": "$s9AdivoCore0A5EventO9displayedyAcA0A11ShowSessionVcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7668,7 +7860,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO7clickedyAcA0A11ShowSessionVcACmF",
             "mangledName": "$s9AdivoCore0A5EventO7clickedyAcA0A11ShowSessionVcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7718,7 +7913,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO6closedyAcA0A11ShowSessionVcACmF",
             "mangledName": "$s9AdivoCore0A5EventO6closedyAcA0A11ShowSessionVcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7789,7 +7987,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO10showFailedyAcA0A11ShowSessionVSg_AA0A5ErrorVtcACmF",
             "mangledName": "$s9AdivoCore0A5EventO10showFailedyAcA0A11ShowSessionVSg_AA0A5ErrorVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7852,7 +8053,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO12rewardEarnedyAcA0A11ShowSessionV_AA0A6RewardVtcACmF",
             "mangledName": "$s9AdivoCore0A5EventO12rewardEarnedyAcA0A11ShowSessionV_AA0A6RewardVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7915,7 +8119,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO11revenuePaidyAcA0A11ShowSessionV_AA0A7RevenueVtcACmF",
             "mangledName": "$s9AdivoCore0A5EventO11revenuePaidyAcA0A11ShowSessionV_AA0A7RevenueVtcACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7965,7 +8172,10 @@
             "declKind": "EnumElement",
             "usr": "s:9AdivoCore0A5EventO10diagnosticyACSScACmF",
             "mangledName": "$s9AdivoCore0A5EventO10diagnosticyACSScACmF",
-            "moduleName": "AdivoCore"
+            "moduleName": "AdivoCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Constructor",
@@ -8024,7 +8234,8 @@
         "mangledName": "$s9AdivoCore0A5EventO",
         "moduleName": "AdivoCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -8076,163 +8287,163 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 395,
+      "offset": 959,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "Array",
-      "offset": 704,
+      "offset": 1322,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "Dictionary",
-      "offset": 756,
+      "offset": 1374,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "Dictionary",
-      "offset": 810,
+      "offset": 1428,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "Dictionary",
-      "offset": 903,
+      "offset": 1521,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "Array",
-      "offset": 946,
+      "offset": 1564,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 988,
+      "offset": 1606,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1224,
+      "offset": 1842,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1412,
+      "offset": 2030,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1439,
+      "offset": 2057,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1469,
+      "offset": 2087,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1498,
+      "offset": 2116,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoClient.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1535,
+      "offset": 2153,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoEngine.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1892,
+      "offset": 2825,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoPlacementCatalog.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoPlacementCatalog.swift",
       "kind": "BooleanLiteral",
-      "offset": 349,
+      "offset": 722,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoPlacementCatalog.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoPlacementCatalog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1036,
+      "offset": 1808,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 342,
+      "offset": 1017,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1199,
+      "offset": 2496,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1241,
+      "offset": 2538,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "Array",
-      "offset": 3755,
+      "offset": 5577,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "StringLiteral",
-      "offset": 6216,
+      "offset": 10740,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "StringLiteral",
-      "offset": 6262,
+      "offset": 10786,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-tcwnwmln\/Sources\/AdivoCore\/AdivoTypes.swift",
+      "filePath": "\/var\/folders\/fy\/tx2t13s515zd3hxqq4cg96gm0000gn\/T\/adivo-binary-ibluf1k9\/Sources\/AdivoCore\/AdivoTypes.swift",
       "kind": "StringLiteral",
-      "offset": 7377,
+      "offset": 12657,
       "length": 5,
       "value": "\"USD\""
     }

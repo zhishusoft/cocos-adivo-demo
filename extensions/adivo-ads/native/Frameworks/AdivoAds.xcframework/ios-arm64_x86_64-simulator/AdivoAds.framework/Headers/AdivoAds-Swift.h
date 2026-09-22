@@ -375,20 +375,41 @@ extern "C" {
 @class NSError;
 @class NSString;
 @class UIViewController;
+/// Adivo Ads 的 Objective-C 兼容入口。
+/// JSON 配置、方法调用和事件回调均应在主线程使用。
 SWIFT_CLASS_NAMED("AdivoObjC")
 @interface AdivoObjC : NSObject
+/// 进程级共享实例。
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdivoObjC * _Nonnull shared;)
 + (AdivoObjC * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// 接收可 JSON 序列化的广告生命周期、奖励、收入和诊断事件。
 @property (nonatomic, copy) void (^ _Nullable eventHandler)(NSDictionary * _Nonnull);
-/// Set only for a host-owned CMP. Nil blocks requests until the host supplies request eligibility.
+/// 返回宿主当前是否具备广告请求资格。
+/// 仅由宿主拥有的 CMP / ATT 流程设置。未提供时默认阻挡广告请求。
 @property (nonatomic, copy) BOOL (^ _Nullable canRequestAdsHandler)(void);
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// 使用 JSON 配置初始化 Adivo Ads 与 AppLovin MAX。
+/// \param configurationJSON 包含 <code>placements</code>、<code>sdkKey</code> 和可选渠道/隐私信号的 UTF-8 JSON 数据。
+///
+/// \param completion 成功时参数为 <code>nil</code>，失败时返回包含 Adivo 错误码和原生诊断的错误。
+///
 - (void)initializeWithConfigurationJSON:(NSData * _Nonnull)configurationJSON completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+/// 为业务广告位加载广告。
+/// \param placement 配置中的业务广告位名称。
+///
+/// \param completion 成功时为 <code>nil</code>，失败时返回错误。
+///
 - (void)loadPlacement:(NSString * _Nonnull)placement completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+/// 返回业务广告位当前是否有可展示的有效缓存广告。
 - (BOOL)isReadyForPlacement:(NSString * _Nonnull)placement SWIFT_WARN_UNUSED_RESULT;
+/// 从指定前台视图控制器展示缓存广告。
+/// completion 成功仅表示广告正常关闭；Objective-C 宿主应通过 <code>eventHandler</code>
+/// 的 <code>rewardEarned</code> 事件发放奖励。
 - (void)showPlacement:(NSString * _Nonnull)placement fromViewController:(UIViewController * _Nonnull)presenter completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+/// 通知 Adivo 宿主隐私状态已变化，并阻挡旧隐私状态下的缓存广告。
 - (void)privacyDidChange;
+/// 在初始化成功后打开 MAX Mediation Debugger。
 - (void)showMediationDebugger;
 @end
 
@@ -777,20 +798,41 @@ extern "C" {
 @class NSError;
 @class NSString;
 @class UIViewController;
+/// Adivo Ads 的 Objective-C 兼容入口。
+/// JSON 配置、方法调用和事件回调均应在主线程使用。
 SWIFT_CLASS_NAMED("AdivoObjC")
 @interface AdivoObjC : NSObject
+/// 进程级共享实例。
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdivoObjC * _Nonnull shared;)
 + (AdivoObjC * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// 接收可 JSON 序列化的广告生命周期、奖励、收入和诊断事件。
 @property (nonatomic, copy) void (^ _Nullable eventHandler)(NSDictionary * _Nonnull);
-/// Set only for a host-owned CMP. Nil blocks requests until the host supplies request eligibility.
+/// 返回宿主当前是否具备广告请求资格。
+/// 仅由宿主拥有的 CMP / ATT 流程设置。未提供时默认阻挡广告请求。
 @property (nonatomic, copy) BOOL (^ _Nullable canRequestAdsHandler)(void);
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// 使用 JSON 配置初始化 Adivo Ads 与 AppLovin MAX。
+/// \param configurationJSON 包含 <code>placements</code>、<code>sdkKey</code> 和可选渠道/隐私信号的 UTF-8 JSON 数据。
+///
+/// \param completion 成功时参数为 <code>nil</code>，失败时返回包含 Adivo 错误码和原生诊断的错误。
+///
 - (void)initializeWithConfigurationJSON:(NSData * _Nonnull)configurationJSON completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+/// 为业务广告位加载广告。
+/// \param placement 配置中的业务广告位名称。
+///
+/// \param completion 成功时为 <code>nil</code>，失败时返回错误。
+///
 - (void)loadPlacement:(NSString * _Nonnull)placement completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+/// 返回业务广告位当前是否有可展示的有效缓存广告。
 - (BOOL)isReadyForPlacement:(NSString * _Nonnull)placement SWIFT_WARN_UNUSED_RESULT;
+/// 从指定前台视图控制器展示缓存广告。
+/// completion 成功仅表示广告正常关闭；Objective-C 宿主应通过 <code>eventHandler</code>
+/// 的 <code>rewardEarned</code> 事件发放奖励。
 - (void)showPlacement:(NSString * _Nonnull)placement fromViewController:(UIViewController * _Nonnull)presenter completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+/// 通知 Adivo 宿主隐私状态已变化，并阻挡旧隐私状态下的缓存广告。
 - (void)privacyDidChange;
+/// 在初始化成功后打开 MAX Mediation Debugger。
 - (void)showMediationDebugger;
 @end
 
