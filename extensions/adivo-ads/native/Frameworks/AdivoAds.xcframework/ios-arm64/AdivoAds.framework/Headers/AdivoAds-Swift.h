@@ -387,6 +387,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdivoObjC * 
 /// 返回宿主当前是否具备广告请求资格。
 /// 仅由宿主拥有的 CMP / ATT 流程设置。未提供时默认阻挡广告请求。
 @property (nonatomic, copy) BOOL (^ _Nullable canRequestAdsHandler)(void);
+/// 创建 Objective-C 单例；宿主通过 <code>shared</code> 访问。
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// 使用 JSON 配置初始化 Adivo Ads 与 AppLovin MAX。
